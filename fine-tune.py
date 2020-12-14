@@ -6,7 +6,7 @@ from transformers import pipeline
 
 
 import pandas as pd
-data = pd.read_csv('drive/MyDrive/goroscope.csv')
+data = pd.read_csv('goroscope.csv')
 
 nl = []
 for i in data['znak']:
